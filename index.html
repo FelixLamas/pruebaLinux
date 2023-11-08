@@ -19,11 +19,8 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav
-        class="navbar navbar-expand-lg bg-body-tertiary container"
-        data-bs-theme="dark"
-      >
+    <header class="bg-dark sticky-top">
+      <nav class="navbar navbar-expand-lg container" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
             ><img src="img/logo.png" class="logo" alt="logo del portfolio"
@@ -42,31 +39,15 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
-                  >Inicio</a
+                <a class="nav-link" href="#presentacion">Presentación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#tecnologias"
+                  >Tecnologías Conocidas</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Presentación</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Enlaces</a
-                >
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#">Tecnologías Conocidas</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#">Proyectos Realizados</a>
-                  </li>
-                </ul>
+                <a class="nav-link" href="#proyectos">Proyectos Realizados</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -90,7 +71,9 @@
     <main>
       <section class="container">
         <article>
-          <h1 class="text-center display-4 pt-2">Presentación</h1>
+          <h1 class="text-center display-4 pt-2" id="presentacion">
+            Presentación
+          </h1>
           <div class="card">
             <div class="row g-0">
               <div class="col-md-6 my-auto">
@@ -144,25 +127,25 @@
         </article>
       </section>
       <section class="container">
-        <h2 class="display-4">Tecnologías Conocidas</h2>
+        <h2 class="display-4" id="tecnologias">Tecnologías Conocidas</h2>
         <section class="row">
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
-                src="img/card-img/file_type_html_icon_130541.png"
+                src="img/card-img/html.png"
                 class="card-img-top"
                 alt="Logo de html5"
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  HTML5 fue uno de los primeros lenguajes informaticos que
+                  aprendi en mi carrera como programdor en la UNT.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/css3.png"
                 class="card-img-top"
@@ -170,14 +153,15 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  CSS junto con HTML5 me dieron inicio en la carrera de
+                  programador, hice mis primeras paginas estaticas con ellos
+                  dos.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/js.png"
                 class="card-img-top"
@@ -185,14 +169,15 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Javascript lo aprendí por mi cuenta ya que justo en el cursado
+                  de la materia, lo dieron muy rapido y en el proyecto final no
+                  lo utilizamos.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/c.png"
                 class="card-img-top"
@@ -200,14 +185,14 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  C es El primer lenguaje de programacion que utilize, lo
+                  aprendi en la carrera de Ing. Electronica.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/c++.png"
                 class="card-img-top"
@@ -215,14 +200,14 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo utilice mientras cursaba la materia de paradigmas de
+                  programacion, donde aprendí programación orientada a objetos.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/cSharp.png"
                 class="card-img-top"
@@ -230,14 +215,15 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo utilice para cursar la materia de taller 1 y 2 , donde se
+                  aplicaron ya los conceptos de la programación orientada a
+                  objetos.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/php.png"
                 class="card-img-top"
@@ -245,14 +231,14 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo utilice para un proyecto final de una página web, como el
+                  lenguaje del backend.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/mysql.png"
                 class="card-img-top"
@@ -260,14 +246,15 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo utilice al igual que PHP con el proyecto final de la
+                  página, como motor de la base de datos de la pagina, muy
+                  básico.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/postgres.png"
                 class="card-img-top"
@@ -275,14 +262,15 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo utilize al cursar la materia de base de datos 2, para hacer
+                  consultas sql mas avanzadas y crear bases de datos
+                  relacionales.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/git.png"
                 class="card-img-top"
@@ -290,14 +278,14 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo aprendi a utilizar en la materia de Taller, y en el curso
+                  de RollingCode LO UTILIZAMOS de manera colaborativa.
                 </p>
               </div>
             </div>
           </article>
-          <article class="col">
-            <div class="card" style="width: 18rem">
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
               <img
                 src="img/card-img/github.png"
                 class="card-img-top"
@@ -305,23 +293,55 @@
               />
               <div class="card-body">
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Lo aprendí en taller y en RollingCode lo seguimos aprendiendo.
+                  Tengo mi repositorio personal con algunos trabajos
                 </p>
               </div>
             </div>
-         
+          </article>
+          <article class="col-12 col-sm-6 col-md-3 mb-2">
+            <div class="card h-100">
+              <img
+                src="img/card-img/bootstrap.png"
+                class="card-img-top"
+                alt="Logo de github"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lo aprendí en RollingCode, lo utilizamos en el primer proyecto
+                  de la página estatica y este portfolio esta creado con está
+                  tecnologia.
+                </p>
+              </div>
+            </div>
+          </article>
         </section>
-        <section></section>
+        <section>
+          <h2 class="display-4" id="proyectos">Proyectos</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
+            recusandae quaerat omnis, modi voluptas doloremque voluptatibus.
+            Nesciunt laboriosam vitae blanditiis, labore excepturi soluta in
+            ipsa, nobis voluptate aspernatur quas quibusdam reprehenderit saepe
+            id perferendis nam fuga tempora temporibus? Ut hic nihil,
+            reprehenderit quas consequatur nostrum ratione at iusto eum?
+            Deleniti voluptates, neque expedita est culpa quos ipsa optio harum,
+            quod, iusto vero aperiam magni ullam porro soluta? Deserunt eius
+            pariatur minima voluptas asperiores eveniet neque dolor corrupti
+            sequi dignissimos sapiente nostrum earum, fugiat facere eum vel enim
+            amet ex commodi itaque perspiciatis repudiandae ipsam.
+            Exercitationem consectetur numquam eos beatae ab?
+          </p>
+        </section>
       </section>
     </main>
-    <footer>
-      <section class="container">
-        <p class="bg-dark mb-0 pb-0 text-light py-2 text-center">
+    <footer class="bg-dark">
+      <section class="container pb-1">
+        <p class="bg-dark mb-0 pb-0 text-light my-2 text-center">
           &copy;Todos los derechos reservados
         </p>
         <nav class="bg-dark">
-          <ul class="flex-row d-flex justify-content-center py-2 list-unstyled">
+          <ul class="flex-row d-flex justify-content-center mt-2 list-unstyled">
             <li class="px-2">
               <a
                 href="https://www.linkedin.com/in/felix-eloy-lamas-b97038260"
